@@ -25,36 +25,31 @@ const rows = [
       name : "John",
       age : 26,
       course : "MERN",
-      batch : "October",
-      edit : "Edit"
+      batch : "October"
     },
     {
       name : "Doe",
       age : 25,
       course : "MERN",
-      batch : "November",
-      edit : "Edit"
+      batch : "November"
     },
     {
       name : "Biden",
       age : 26,
       course : "MERN",
-      batch : "September",
-      edit : "Edit"
+      batch : "September"
     },
     {
       name : "Barar",
       age : 22,
       course : "Christ",
-      batch : "September",
-      edit : "Edit"
+      batch : "September"
     },
     {
       name : "Elent",
       age : 23,
       course : "MERN",
-      batch : "October",
-      edit : "Edit"
+      batch : "October"
     }
 ];
 
@@ -83,7 +78,7 @@ const BasicTable = () => {
               <TableCell align="right">{row.age}</TableCell>
               <TableCell align="right">{row.course}</TableCell>
               <TableCell align="right">{row.batch}</TableCell>
-              <TableCell align="right"><NavLink to="#">{row.edit}</NavLink></TableCell>
+              <TableCell align="right"><NavLink to="#">Edit</NavLink></TableCell>
             </TableRow>
           ))}
         </TableBody>
